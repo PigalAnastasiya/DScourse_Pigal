@@ -31,7 +31,8 @@ scraping_all_page(soup, next_li_element, base_url, headers, quotes)
 
 # reading  the "quotes.csv" file and creating it
 # if not present
-csv_file = open('./data/quotes.csv', 'w', encoding='utf-8', newline='')
+csv_file = open('./homework11_05/data/quotes.csv',
+                'w', encoding='utf-8', newline='')
 
 # initializing the writer object to insert data
 # in the CSV file
